@@ -22,5 +22,3 @@ plot_tanh2(0.5)
 plot_tanh2(1.0)
 plot_tanh2(2.2)
 plt.show()
-
-# Problem 2
