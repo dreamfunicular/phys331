@@ -9,7 +9,7 @@ def bern(h):
     h0 = 0.6
     H = 0.035
 
-    return (h * h * h) + (- (Q * Q) / (2 * g * b * b * h0 * h0) - h0 + H) * (h * h) + ((Q * Q) / (2 * g * b * b))
+    return ((Q * Q) / (2 * g * b * b * h * h)) + h + H - (Q * Q) / (2 * g * b * b * h0 * h0) - h0
 
 # Bisection root-finding algorithm
 def rf_bisect(f,xlo,xhi,xtol,nmax):
